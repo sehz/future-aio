@@ -1,6 +1,6 @@
 [package]
 name = "fluvio-future"
-version = "0.3.8"
+version = "0.3.9"
 edition = "2018"
 authors = ["Fluvio Contributors <team@fluvio.io>"]
 description = "I/O futures for Fluvio project"
@@ -61,7 +61,7 @@ webpki = { version = "0.21", optional = true }
 cfg-if = { version = "1.0.0", optional = true }
 
 fluvio-async-tls = { version = "0.2.0", optional = true }
-thiserror = "1.0.20"
+thiserror = "1.0.29"
 fluvio-test-derive = { path = "async-test-derive", version = "0.1.1", optional = true }
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
